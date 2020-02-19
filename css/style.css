@@ -1,7 +1,14 @@
 body {}
 
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
 p {
+    font-size: 15px;
     line-height: 1.75;
+    font-family: "Roboto";
 }
 
 #mainNav {
@@ -17,8 +24,8 @@ p {
 
 header.masthead {
     text-align: center;
-    color: white;
-    background-image: url(../img/bg.jpg);
+    color: #000000;
+    background-image: url(../img/flag.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -31,7 +38,7 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-    font-size: 22px;
+    font-size: 30px;
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
@@ -64,6 +71,39 @@ header.masthead .intro-text .intro-heading {
         line-height: 75px;
         margin-bottom: 50px;
         font-family: ;
+    }
+}
+
+.section-title h1:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    width: 10px;
+    height: 10px;
+    background: #e45447;
+    border-radius: 7px;
+}
+
+@media (max-width: 1024px) {
+    .section-title h1:before {
+        bottom: -15px;
+    }
+}
+
+.section-title h1:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -31px;
+    width: 100px;
+    height: 2px;
+    background: #e45447;
+}
+
+@media (max-width: 1024px) {
+    .section-title h1:after {
+        bottom: -11px;
     }
 }
 
