@@ -14,16 +14,19 @@
 
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
 
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
-            <a href="#" class="navbar-brand js-scroll-trigger">Personal Profile</a>
+            <a href="#head" class="navbar-brand js-scroll-trigger">SBY</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbarTop" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,34 +36,39 @@
                         <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="biography.html">Biografi</a>
+                        <a class="nav-link js-scroll-trigger" href="profile.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="education.html">pendidikan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#">Karir</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Karir</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#head">Masa Karir</a>
+                            <a class="dropdown-item" href="#career">Masa Jabatan</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="honor.html">Penghargaan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="others.html">Others</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead" id="head">
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Welcome To My Website</div>
-                <div class="intro-heading">Susilo Bambang Yudhoyono</div>
+                <div class="intro-heading">Personal Profile SBY</div>
             </div>
         </div>
     </header><br><br>
 
-    <section id="career">
+    <section>
         <div class="container">
             <h1>Karir</h1>
+            <hr>
             <ul>
                 <li>Dan Tonpan Yonif Linud 330 Kostrad (1974-1976)</li>
                 <li>Dan Tonpan Yonif 305 Kostrad (1976-1977)</li>
@@ -76,7 +84,8 @@
                 <li>Dan Brigif Linud 17 Kujang 1 Kostrad (1993-1994)</li>
                 <li>Asops Kodam Jaya (1994-1995)</li>
                 <li>Danrem 072/Pamungkas Kodam IV/Diponegoro (1995)</li>
-                <li>Chief Military Observer United Nation Peace Forces (UNPF) di Bosnia-Herzegovina (sejak awal November 1995)</li>
+                <li>Chief Military Observer United Nation Peace Forces (UNPF) di Bosnia-Herzegovina (sejak awal November 1995)
+                </li>
                 <li>Kasdam Jaya (1996-hanya lima bulan)</li>
                 <li>Pangdam II/Sriwijaya (1996-1997) sekaligus Ketua Bakorstanasda</li>
                 <li>Asospol Kassospol ABRI/wakil Ketua Fraksi ABRI MPR (Sidang Umum MPR 1998)</li>
@@ -90,11 +99,133 @@
         </div>
     </section><br><br>
 
+    <section id="career">
+        <table class="table table-bordered">
+            <thead class="thead-light">
+                <tr>
+                    <th colspan="3">Jabatan Politik</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>Megawati Soekarnoputri</p>
+                    </td>
+                    <td>
+                        <p>Presiden Indonesia</p>
+                        <p>2004-2014</p>
+                    </td>
+                    <td>
+                        <p>Diteruskan oleh:</p>
+                        <p>Joko Widodo</p>
+                    </td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>Agum Gumelar</p>
+                    </td>
+                    <td>
+                        <p>Menteri Koordinator Bidang Politik dan Keamanan Indonesia</p>
+                        <p>2001-2004</p>
+                    </td>
+                    <td>
+                        <p>Diteruskan oleh:</p>
+                        <p>Hari Sabarno</p>
+                        <p>(ad interim)</p>
+                    </td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>Wiranto</p>
+                    </td>
+                    <td>
+                        <p>Menteri Koordinator Bidang Politik, Sosial dan Keamanan Indonesia</p>
+                        <p>2000-2001</p>
+                    </td>
+                    <td>
+                        <p>Diteruskan oleh:</p>
+                        <p>Agum Gumelar</p>
+                    </td>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>Kuntoro Mangkusubroto</p>
+                    </td>
+                    <td>
+                        <p>Menteri Pertambangan dan Energi Indonesia</p>
+                        <p>1999-2000</p>
+                    </td>
+                    <td>
+                        <p>Diteruskan oleh:</p>
+                        <p>Purnomo Yusgiantoro</p>
+                    </td>
+                </tr>
+            </thead>
+            <thead class="thead-light">
+                <tr>
+                    <th colspan="3">Jabatan Militer</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>R. Karyono</p>
+                    </td>
+                    <td>
+                        <p>Pangdam Sriwijaya</p>
+                        <p>1996-1997</p>
+                    </td>
+                    <td>
+                        <p>Diteruskan oleh:</p>
+                        <p>Suadi Atma</p>
+                    </td>
+                </tr>
+            </thead>
+            <thead class="thead-light">
+                <tr>
+                    <th colspan="3">Jabatan Partai Politik</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td>
+                        <p>Didahului oleh:</p>
+                        <p>Anas Urbaningrum</p>
+                    </td>
+                    <td>
+                        <p>Ketua Umum Partai Demokrat</p>
+                        <p>2013–sekarang</p>
+                    </td>
+                    <td>
+                        <p>Petahana</p>
+                    </td>
+                </tr>
+            </thead>
+        </table>
+    </section><br>
+
+    <section class="row" id="back">
+        <div class="col-12 text-center">
+            <a href="index.html">Home</a>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Personal Profile 2020</span>
+                    <span class="copyright">Copyright &copy; MAZaidan 2020</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">

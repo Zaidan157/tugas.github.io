@@ -1,20 +1,7 @@
-body {}
-
-h1 {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 15px;
-    line-height: 1.75;
-    font-family: "Roboto";
-}
-
 #mainNav {
     font-size: 15px;
     color: white;
-    background-color: #000000
+    background-color: #000000;
 }
 
 #mainNav .navbar-brand {
@@ -25,7 +12,7 @@ p {
 header.masthead {
     text-align: center;
     color: #000000;
-    background-image: url(../img/flag.png);
+    background-image: url(../img/flag.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -33,77 +20,121 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 }
 
 header.masthead .intro-text .intro-lead-in {
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
     line-height: 22px;
     margin-bottom: 25px;
-    font-family: ;
+    font-family: "";
 }
 
 header.masthead .intro-text .intro-heading {
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
     line-height: 50px;
     margin-bottom: 25px;
-    font-family: ;
+    font-family: "";
 }
 
 @media (min-width: 768px) {
     header.masthead .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 270px;
+        padding-bottom: 180px;
     }
     header.masthead .intro-text .intro-lead-in {
-        font-size: 40px;
+        font-size: 35px;
         font-style: italic;
         line-height: 40px;
         margin-bottom: 25px;
-        font-family: ;
     }
     header.masthead .intro-text .intro-heading {
-        font-size: 75px;
+        font-size: 65px;
         font-weight: 700;
         line-height: 75px;
         margin-bottom: 50px;
-        font-family: ;
     }
 }
 
-.section-title h1:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -35px;
-    width: 10px;
-    height: 10px;
-    background: #e45447;
-    border-radius: 7px;
+h1 {
+    font-size: 25px;
+    font-weight: bold;
 }
 
-@media (max-width: 1024px) {
-    .section-title h1:before {
-        bottom: -15px;
+p {
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: "Roboto";
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+    }
+    li {
+        font-size: 18px;
     }
 }
 
-.section-title h1:after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -31px;
-    width: 100px;
+hr {
+    margin-top: -12px;
     height: 2px;
+    width: 100%;
     background: #e45447;
 }
 
-@media (max-width: 1024px) {
-    .section-title h1:after {
-        bottom: -11px;
+#bio {
+    border-radius: 50px;
+}
+
+#back {
+    border: 1px solid #e45447;
+    border-radius: 25px;
+    width: 100px;
+    margin-left: 130px;
+}
+
+@media (min-width: 768px) {
+    #back {
+        font-size: 18px;
+        width: 8%;
+        margin-left: 46%;
+    }
+}
+
+#back a {
+    color: #e45447;
+}
+
+#back:hover {
+    background-color: #e45447;
+    color: #ffffff;
+}
+
+#back a:hover {
+    color: #ffffff;
+}
+
+.table {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table th {
+    font-size: 15px;
+}
+
+@media (min-width: 768px) {
+    .table th {
+        font-size: 23px;
     }
 }
 
@@ -113,14 +144,14 @@ header.masthead .intro-text .intro-heading {
 }
 
 .footer span.copyright {
-    font-size: 90%;
+    font-size: 80%;
     line-height: 40px;
     text-transform: none;
     font-family: 'Montserrat';
 }
 
 .footer ul.quicklinks {
-    font-size: 90%;
+    font-size: 80%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
@@ -132,11 +163,11 @@ ul.social-buttons {
 }
 
 ul.social-buttons li a {
-    font-size: 20px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 40px;
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     transition: all 0.3s;
     color: white;
     border-radius: 100%;
@@ -148,4 +179,19 @@ ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
     background-color: #fed136;
+}
+
+@media (min-width: 768px) {
+    .footer span.copyright {
+        font-size: 16px;
+    }
+    .footer ul.quicklinks {
+        font-size: 16px;
+    }
+    ul.social-buttons li a {
+        font-size: 20px;
+        line-height: 60px;
+        width: 60px;
+        height: 60px;
+    }
 }
