@@ -1,3 +1,10 @@
+body {
+    background-image: url(../img/background/back.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #mainNav {
     font-size: 15px;
     color: white;
@@ -11,8 +18,7 @@
 
 header.masthead {
     text-align: center;
-    color: #000000;
-    background-image: url(../img/flag.jpg);
+    background-image: url(../img/background/top.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -30,6 +36,7 @@ header.masthead .intro-text .intro-lead-in {
     line-height: 22px;
     margin-bottom: 25px;
     font-family: "";
+    color: #000000;
 }
 
 header.masthead .intro-text .intro-heading {
@@ -38,6 +45,7 @@ header.masthead .intro-text .intro-heading {
     line-height: 50px;
     margin-bottom: 25px;
     font-family: "";
+    color: #fed136;
 }
 
 @media (min-width: 768px) {
@@ -62,6 +70,10 @@ header.masthead .intro-text .intro-heading {
 h1 {
     font-size: 25px;
     font-weight: bold;
+}
+
+h1:hover {
+    color: #e45447;
 }
 
 p {
@@ -90,7 +102,14 @@ hr {
 }
 
 #bio {
-    border-radius: 50px;
+    border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    #bio {
+        width: 340px;
+        height: 340px;
+    }
 }
 
 #back {
